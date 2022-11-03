@@ -2,6 +2,6 @@
 
 ## moja pierwsza strona
 
-demo:
+Tutaj powinna pojawić się strona testowa:
 https://ceteryzyna.github.io/homepage/
 
