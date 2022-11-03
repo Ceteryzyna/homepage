@@ -1,0 +1,42 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.nav {
+    max-width: 1000px;
+    text-align: left;
+    font-size: 20px;
+    background-color: rgb(205 224 233);
+    border: 2px solid rgb(255 255 255);
+    padding: 50px 0 50px 70px;
+    box-shadow: 10px 10px 14px -4px #DDDBDC;
+    margin: 15px;
+    line-height: 1.5;
+}
+
+.nav__list {
+    list-style: none;
+    padding-left: 100px;
+}
+
+.nav__link {
+    color: rgb(74, 107, 199);
+    text-decoration: none;
+}
+
+.nav__link:focus {
+    outline: 2px solid currentColor
+}
+
+.nav__link:hover {
+    color: rgb(0, 0, 0);
+    border-bottom: 2px, solid;
+    outline: none;
+    font-weight: 700;
+}
