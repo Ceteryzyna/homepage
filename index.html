@@ -14,7 +14,9 @@
     <link href="css/section.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/table.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
     <link href="css/nav.css" rel="stylesheet">
+    <link href="css/tbody.css" rel="stylesheet">
     <script defer src="js/script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,30 +26,27 @@
 
 <body class="body">
     <header class="header">
-        <h1>Paula Andrzejewska</h1>
+        <div class="header__h1"><h1>Paula Andrzejewska</h1></div>
+        <div class="header__logo"><img src="images/logo.png" alt="logo" width="250"></div>
+        <div class="button yellow"><button><img  src="images/bulb.png" alt="bulb" width="100"></button></div>
+        <div class="header__bulb"><p><strong><span class="themeName">Zgaś</span></strong> światło<br> na
+            stronie.</p></div>
+            <!-- <button class="button yellow"><strong><span class="themeName">Zgaś</span></strong> światło<br> na
+            stronie.</button> -->
+
     </header>
     <nav class="nav">
-        <table>
-            <tr>
-                <td> <button class="button yellow"><strong><span class="themeName">Zgaś</span></strong> światło<br> na
-                        stronie.</button>
-                </td>
-                <td>
-                    <ul>
-                        <li class="nav__list"><a class="nav__link" href="#KimjestPaula">Kim jest Paula</a></li>
-                        <li class="nav__list"><a class="nav__link" href="#Doświadczenie">Doświadczenie</a></li>
-                        <li class="nav__list"><a class="nav__link" href="#Pasje">Pasje</a></li>
-                        <li class="nav__list"><a class="nav__link" href="#Kulinaria">Kulinaria</a></li>
-                        <li class="nav__list"><a class="nav__link" href="#Napiszdomnie">Napisz do mnie</a></li>
-                    </ul>
-                </td>
-        </table>
+        <a class="nav__link" href="#KimjestPaula">Kim jest Paula</a>
+        <a class="nav__link" href="#Doświadczenie">Doświadczenie</a>
+        <a class="nav__link" href="#Pasje">Pasje</a>
+        <a class="nav__link" href="#Kulinaria">Kulinaria</a>
+        <a class="nav__link" href="#Napiszdomnie">Napisz do mnie</a>
     </nav>
     <main class="main">
-        <table>
-            <tbody>
-                <tr>
-                    <td class="table__who">
+        <tbody>
+            <div class="flex">
+                <section class="julka">
+                    <div class="first">
                         <h2 id="KimjestPaula">Kim jest Paula?</h2>
                         <p>Fajnie, że tu jesteś. Ja jestem <b>Paula</b>, mam
                             wiele pasji i
@@ -55,36 +54,26 @@
                             Ćwiczę crossfitt, kocham auta, podróże i tatuaże. W długie jesienne wieczory lubię
                             zmajstrować jakiś sweter na drutach.
                         </p>
-                    </td>
-                    <td class="table__img"> <img width=200 src="https://i.postimg.cc/0ySXV0dd/paula.jpg" alt>
-                    </td>
-                    <td>
-                        <aside class="table__aside">
-                            <h3 class="table__quote">Cytat:</h3>
-                            <p><span><em>Gdy komendant oblężonego zamku zaczyna układy - a kobieta słucha mężczyzny,
-                                        to
-                                        do
-                                        poddania się niedaleko.</em></span></p>
-                            <p><span style="color: gray">Walter SCOTT</span></p>
-                        </aside>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+                    </div>
+                    <p class="second"><img width=320 src="images/me1500.jpg" alt></p>
+                    <span class="third">
+                        <h3>Cytat:</h3>
+                        <p><span><em>Gdy komendant oblężonego zamku zaczyna układy - a kobieta słucha mężczyzny, to do
+                                    poddania
+                                    się niedaleko.</em></span></p>
+                        <p><span style="color: gray">Walter SCOTT</span>
+                </section>
+            </div>
+        </tbody>
         <section class="section">
-            <h2 class="section__header" id="Doświadczenie">Przykladowy naglowek</h2>
-            <p class="section__paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus, illo
-                ducimus fuga earum vitae unde quos totam maxime rerum magni possimus ipsa in recusandae atque. Ducimus
-                animi quisquam exercitationem tempora. </p>
-        </section>
-        <h2 class="section__header" id="Doświadczenie">Doświadczenie</h2>
-        <p class="section__paragraph">Oj dużo można by pisać o moim doświadczeniu zawodowym. Każdy z zawodów jaki
-            wykonywałam dał mi
-            niewątpliwie masę korzyści. <span class=section__paragraph--modify>Ktoś kiedyś powiedział, że jesteśmy
-                sumą naszych doświadczeń.</span> W pełni
-            się z tym zgodzę. W każdej pracy jaką miałam, musiałam uczyć się nowych rzeczy, odnajdywać się w
-            nowych okolicznościach. Jednak żaden zawód nie dał mi tyle co obecny. Człowieka na moim stanowisku
-            nie da się zwolnić i nie da się odejść z tej roboty. </p>
+            <h2 class="section__header" id="Doświadczenie">Doświadczenie</h2>
+            <p class="section__paragraph">Oj dużo można by pisać o moim doświadczeniu zawodowym. Każdy z zawodów jaki
+                wykonywałam dał mi
+                niewątpliwie masę korzyści. <span class=section__paragraph--modify>Ktoś kiedyś powiedział, że jesteśmy
+                    sumą naszych doświadczeń.</span> W pełni
+                się z tym zgodzę. W każdej pracy jaką miałam, musiałam uczyć się nowych rzeczy, odnajdywać się w
+                nowych okolicznościach. Jednak żaden zawód nie dał mi tyle co obecny. Człowieka na moim stanowisku
+                nie da się zwolnić i nie da się odejść z tej roboty. </p>
         </section>
         <section class="section">
             <h2 class="section__header" id="Pasje">Pasje</h2>
@@ -208,6 +197,7 @@
             <p> przykladowyadres@domena.pl
             </p>
         </section>
+        
     </main>
     <footer class="footer">Strona powstała dzięki szkoleniu z programowania w YouCode. 2022.</footer>
 </body>

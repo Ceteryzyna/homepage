@@ -9,15 +9,22 @@ html {
 }
 
 .nav {
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
     max-width: 1000px;
     text-align: left;
     font-size: 20px;
-    background-color: rgb(205 224 233);
-    border: 2px solid rgb(255 255 255);
+    /* border: 2px solid rgb(255 255 255); */
     padding: 50px 0 50px 70px;
-    box-shadow: 10px 10px 14px -4px #DDDBDC;
+    box-shadow: 10px 10px 14px -4px #dddbdc6c;
     margin: 15px;
     line-height: 1.5;
+    /* background-image: url("../images/picture.jpg");
+    background-position: 40% 10%;
+    background-size: 1500px; */
 }
 
 .nav__list {

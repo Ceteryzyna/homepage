@@ -1,0 +1,37 @@
+.julka {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.first {
+    padding: 15px;
+    margin: 5px;
+    max-width: 700px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.932);
+    text-align: right;
+    box-shadow: inset 155px 0px 127px -63px #e2e2e2c2;
+    flex:1 1 auto;
+}
+
+.second >img{
+    border-radius: 50%;
+    margin: 5px;
+    box-shadow: 10px 8px 18px -4px #67884c;
+}
+
+.third {
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.219);
+    background-color: rgba(250, 241, 231, 0.445);
+    border-radius: 50px;
+    width: 400px;
+    margin: 5px;
+    
+  
+}
