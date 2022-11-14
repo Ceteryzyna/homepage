@@ -8,8 +8,4 @@ HTML, CSS, JS
 ## This is my first page:
 https://ceteryzyna.github.io/homepage/
 
-## Here you will find a very simple currency calculator:
-https://ceteryzyna.github.io/kalkulator/
-
-
 
