@@ -9,6 +9,7 @@ HTML, CSS, JS
 https://ceteryzyna.github.io/homepage/
 
 ## Here you will find a very simple currency calculator:
+https://ceteryzyna.github.io/kalkulator/
 
 
 
