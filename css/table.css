@@ -18,13 +18,6 @@ html {
     padding: 30px;
     line-height: 1;
 }
-
-/* .table__main {
-    max-width: 1000;
-    border-width: 0 0 50px;
-    border: black 2px;
-} */
-
 .table__caption {
     caption-side: top;
     text-align: left;
@@ -35,7 +28,7 @@ html {
 .table__header {
     color: rgb(255, 255, 255);
     text-shadow: 2px 2px 5px rgb(98 90 90);
-    background-color: rgb(172, 173, 236);
+    background-color: rgb(187 167 229);
     border: 1px solid rgb(107, 97, 97);
     padding: 10px;
 }
