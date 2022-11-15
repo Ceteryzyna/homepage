@@ -1,7 +1,7 @@
 
 let body = document.querySelector(".body");
 let dark = document.querySelector(".dark");
-let button = document.querySelector(".button");
+let button = document.querySelector(".js-button");
 let themeName = document.querySelector(".themeName");
 let yellow = document.querySelector(".yellow");
 
