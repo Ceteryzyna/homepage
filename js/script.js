@@ -1,15 +1,23 @@
+{
+    const hi = () => {
+        console.log("hello everybody and nice to meet you");
+    }
 
-let body = document.querySelector(".body");
-let dark = document.querySelector(".dark");
-let button = document.querySelector(".js-button");
-let themeName = document.querySelector(".themeName");
-let yellow = document.querySelector(".yellow");
+    const toggleBackground = () => {
+        const body = document.querySelector(".body");
+        const button = document.querySelector(".js-button");
+        const themeName = document.querySelector(".themeName");
+        body.classList.toggle("dark");
+        button.classList.toggle("yellow");
+        themeName.innerText = body.classList.contains("dark") ? "Zapal" : "Zgaś";
+    };
 
+    const init = () => {
+        const button = document.querySelector(".js-button");
+        button.addEventListener("click", toggleBackground);
 
-button.addEventListener("click", () => {
-    body.classList.toggle("dark");
-    button.classList.toggle("yellow");
-    themeName.innerText = body.classList.contains("dark") ? "Zapal" : "Zgaś";
-});
+        hi();
+    };
 
-
+    init();
+}
